@@ -1,0 +1,56 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(jerkyHeader.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  color: white;
+  font-size: 3rem;
+  background-color: rgba(98, 108, 127, 0.4);
+}
+
+
+
+.buffer{
+  height: 10rem;
+}
+
+hr {
+  margin: 20px auto;
+  color: #626C7F;
+  border: 3px solid #626C7F;
+  max-width: 100px;
+  opacity: 1;  
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  transition: 1.1s
+}
+
+.btn-primary{
+  background-color: #626C7F;
+  border-color: #626C7F;
+}
+
+.btn-primary:hover{
+  background-color: #465064;
+  border-color: #465064;
+  transform: scale(1.05);
+}
+
+
+
+
+.btn-xl{
+  padding:1rem 2rem;
+}
